@@ -1,5 +1,5 @@
 # Real-Time Product Usage Monitor
-![CI](https://github.com/<YOUR_GH_USER>/real-time-usage-monitor/actions/workflows/ci.yml/badge.svg?branch=main)
+![CI](https://github.com/danymitkova/real-time-usage-monitor/actions/workflows/ci.yml/badge.svg?branch=main)
 
 End-to-end, **streaming analytics** stack:
 
