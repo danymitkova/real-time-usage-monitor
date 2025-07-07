@@ -16,13 +16,13 @@ End-to-end, **streaming analytics** stack:
 ## 📐 Architecture
 
 ```mermaid
-graph TD
-    A["Data simulator (Faker)"] -->|JSON events| K[Kafka topic]
-    K --> S[Spark Structured Streaming]
+graph TB
+    A["Data simulator (Faker)"] -->|JSON events| K[Kafka]
+    K --> S[Spark<br>Structured Streaming]
     S --> D[Delta Lake]
     D --> B[dbt models]
     D --> ST[Streamlit dashboard]
-    B -->|tests| CI[GitHub Actions]
+    B --> CI[GitHub Actions]
 
 
 🚀 Quick start (local demo)
