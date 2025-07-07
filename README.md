@@ -17,12 +17,14 @@ End-to-end, **streaming analytics** stack:
 
 ```mermaid
 graph TD
-    A[Data simulator<br>(Python + Faker)] -->|JSON events| K(Kafka topic)
-    K --> S(Spark Structured Streaming)
-    S --> D[Delta Lake<br>silver & gold]
+    A[Data simulator\n(Python + Faker)] -->|JSON events| K((Kafka))
+    K --> S[Spark Structured Streaming]
+    S --> D[Delta Lake\nsilver & gold]
     D --> B[dbt models]
     D --> ST[Streamlit dashboard]
-    B -->|tests| CI(CI GitHub Actions)
+    B -->|tests| CI[GitHub Actions]
+
+
 🚀 Quick start (local demo)
 bash
 Copy
