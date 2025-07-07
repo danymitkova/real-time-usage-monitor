@@ -17,8 +17,8 @@ End-to-end, **streaming analytics** stack:
 ## 📐 Architecture
 
 ```mermaid
-graph TB
-    A["Data simulator (Faker)"] -->|events| K[Kafka]
+graph TD
+    A["Data simulator"] -->|events| K[Kafka]
     K --> S[Spark Streaming]
     S --> D[Delta Lake]
     D --> B[dbt]
