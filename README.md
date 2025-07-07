@@ -23,10 +23,6 @@ graph TD
     D --> B[dbt models]
     D --> ST[Streamlit dashboard]
     B -->|tests| CI[GitHub Actions]
-yaml
-Copy
-Edit
-</details>
 
 
 
