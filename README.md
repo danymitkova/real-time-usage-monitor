@@ -26,8 +26,6 @@ graph TD
     B --> CI[GitHub Actions]
 
 
-
-
 🚀 Quick start (local demo)
 bash
 Copy
