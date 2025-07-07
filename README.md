@@ -15,6 +15,9 @@ End-to-end **streaming analytics** stack:
 
 ## 📐 Architecture
 
+![Architecture diagram](.github/diagram.png)
+
+
 ```mermaid
 graph TD
     A["Data simulator"] -->|events| K[Kafka]
