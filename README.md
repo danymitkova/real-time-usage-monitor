@@ -18,14 +18,6 @@ End-to-end **streaming analytics** stack:
 ![Architecture diagram](.github/diagram.png)
 
 
-```mermaid
-graph TD
-    A["Data simulator"] -->|events| K[Kafka]
-    K --> S[Spark Streaming]
-    S --> D[Delta Lake]
-    D --> B[dbt]
-    D --> ST[Streamlit]
-    B --> CI[GitHub Actions]
 🚀 Quick start (local demo)
 bash
 Copy
