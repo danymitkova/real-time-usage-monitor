@@ -1,0 +1,8 @@
+pandas
+numpy
+pyspark==3.4.1
+delta-spark
+faker
+streamlit
+scikit-learn
+pytest
